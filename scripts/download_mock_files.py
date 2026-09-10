@@ -4,7 +4,7 @@ Run locally:
     python scripts/download_mock_files.py
 
 Run in Databricks, point output_dir at the workspace path instead, e.g.:
-    download(output_dir="/Workspace/Shared/Health CPE/Docling/mock-files")
+    download(output_dir="/Workspace/Shared/Docling/mock-files")
 """
 
 import ssl

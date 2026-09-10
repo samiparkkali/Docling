@@ -1,4 +1,4 @@
-# medis-docling
+# Docling
 
 POC for a document transformation pipeline (`DocPipe`) meant to run in
 Databricks. Built around [Docling](https://github.com/docling-project/docling)
@@ -50,7 +50,7 @@ In a Databricks notebook:
 ```python
 from scripts.download_mock_files import download
 
-download(output_dir="/Workspace/Shared/Health CPE/Docling/mock-files")
+download(output_dir="/Workspace/Shared/Docling/mock-files")
 ```
 
 ## Running tests
